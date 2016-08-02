@@ -6,8 +6,8 @@
 <div class="row">
 	<div class="col-sm-3">
 		<ul class="nav nav-sidebar">
-			<li id='rfq' class="active"><a href="javascript:displayContact('rfq')" >RFQ</a></li>
-			<li id='joinus'><a href="javascript:displayContact('joinus')">Join us</a></li>
+			<!-- <li id='rfq' class="active"><a href="javascript:displayContact('rfq')" >RFQ</a></li> -->
+			<!-- <li id='joinus'><a href="javascript:displayContact('joinus')">Join us</a></li> -->
 			<li id='contact'><a href="javascript:displayContact('contact')">Contact us</a></li>
 		</ul>
 	</div>
@@ -90,5 +90,5 @@ function displayContact(p){
 		$('#'+p).addClass('active');
 		$('.'+p).show();
 	}
-	displayContact('rfq');
+	displayContact('contact');
 {% endblock %}
